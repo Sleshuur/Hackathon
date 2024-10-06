@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#757575"
+    tools:context=".MainActivity">
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/shape_1"/>
+
+
+    <ImageButton
+        android:id="@+id/textButton1"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_1"
+        android:visibility="visible"
+        />
+    <ImageButton
+        android:id="@+id/textButton2"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="125dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:background="@android:color/transparent"
+        android:src="@drawable/pleer"/>
+
+
+    <ImageButton
+        android:id="@+id/textButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="15dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/hujijniki" />
+
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape_2"
+        />
+
+    <ImageButton
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chelovechek"
+        android:background="@android:color/transparent"/>
+    <ImageButton
+        android:layout_marginBottom="45dp"
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plusik"
+        android:background="@android:color/transparent"/>
+    <ImageButton
+        android:layout_marginBottom="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_gravity="bottom|start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle_12"
+        android:background="@android:color/transparent"/>
+
+
+</FrameLayout>

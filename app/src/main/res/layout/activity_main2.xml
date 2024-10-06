@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/shape_1">
+
+
+    </View>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/_____________"
+
+        >
+
+    </ImageView>
+
+    <FrameLayout
+        android:layout_width="385dp"
+        android:layout_height="535dp"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_3"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/shape_4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:text="  Новинки"
+                android:textStyle="bold"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/text_shape_1"
+                >
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/imagebutton1"
+                android:layout_width="320dp"
+                android:layout_height="400dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/aaa"
+                android:background="@drawable/image_1">
+
+            </ImageButton>
+
+
+        </FrameLayout>
+
+
+
+
+
+
+
+
+    </FrameLayout>
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape_2"
+        />
+    <ImageButton
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chelovechek"
+        android:background="@android:color/transparent"/>
+    <ImageButton
+        android:layout_marginBottom="45dp"
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plusik"
+        android:background="@android:color/transparent"/>
+    <ImageButton
+        android:layout_marginBottom="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_gravity="bottom|start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle_12"
+        android:background="@android:color/transparent"/>
+
+</FrameLayout>
